@@ -1,0 +1,10 @@
+<h1>Dashboard#show_date</h1>
+
+<h1><%= Time.now.strftime("%H:%M") %>
+
+  <% Question.all.each do |s| %>
+    <p class= "question_type"><%= s.type %></p>
+  <% end %>
+
+
+<p>Find me in app/views/dashboard/show_date.html.erb</p>
